@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<!--
+Copyright (C) Error: on line 4, column 33 in Templates/Licenses/license-gpl30.txt
+The string doesn't match the expected date/time format. The string to parse was: "2015-jan-21". The expected format was: "MMM d, yyyy". Casper
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/>.
+-->
+<html>
+    <head>
+        <title>Testing stuff</title>
+        
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Casper 'Cabbe' Björk">
+        <link rel="stylesheet" href="basicsite.css">
+        <link rel="stylesheet" href="homepage.css">
+        <link rel="stylesheet" href="bootstrap.css">
+        
+        <style>
+            html {
+                  background-color: #87CEFA;
+                  font-family: Verdana, sans-serif;
+                }
+        </style>
+            
+    </head>
+    
+    <body>
+        
+        
+        <div class="main">
+        
+              function diceroll() {
+                  var dice
+                  var roll = 1;
+                  roll = Math.floor(1+ Math.random()*10);
+                  
+                  switch (roll) {
+                      case 1:
+                          dice = "You rolled : 1";
+                          break;
+                      case 2:
+                          dice = "You rolled : 2";
+                          break;
+                      case 3:
+                          dice = "You rolled : 3";
+                          break;
+                      case 4:
+                          dice = "You rolled : 4";
+                          break;
+                      case 5:
+                          dice = "You rolled : 5";
+                          break;
+                      case 6:
+                          dice = "You rolled : 6";
+                          break;
+                      defualt :
+                          dice = 1;
+                      break;
+                  }
+               document.getElementById("datedhm").innerHTML = dice
+                 }
+            </script>
+            
+            <p id="datedhm"></p>
+
+        </div>  
+        
+    </body>
+    
+    
+</html>
