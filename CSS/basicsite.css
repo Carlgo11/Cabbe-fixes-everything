@@ -25,53 +25,68 @@ html   {
         } 
 
 .main {
-    background-color: #B0C4DE;
+    background-color: #87CEFA;
     border: 2px solid black;
     width: 90%;
     height: 1100px;
     margin: auto;
     box-shadow: 3px 3px 2px black;
     color: black;
-       }       
+}
        
+.post {
+    background-color: #6CA5C8;
+    width: 100%;
+    padding-bottom: 20px;
+    box-shadow: 0px 0px 3px black;
+    margin-top: 35px;
+}
+
 #title {
     font-size: 55px;
     text-align: center;
     font: verdana;
-        }
+}
 
 #paraheading {
     font-size: 30px;
     text-align: left;
     font: verdana;
-            }
+}
             
 #parainfo {
     font-size: 25px;
     text-align: left;
     font: verdana;
     padding-left: 3px;
-            }
+}
         
 #para {
     font: verdana;
     font-size: 20px;
     padding-left: 3px;
     font: verdana;
+    text-align: left;
 }
+ol {
+    font: verdana;
+    font-size: 20px;
+}
+
+
 
 ul#menu {
     list-style-type: none;
     margin: 0;
     padding: 0;
     height: 50px;
-    background-color: #87CEFA;
+    background-color: #99FF66;
     box-shadow: 1px 1px 1px black;
 }
 
 ul#menu li { 
     display: inline;
-    background-color:#87CEFA;
+    background-color:#99FF66;
     padding: 10px; 
     
 }
@@ -89,5 +104,5 @@ ul#menu li a{
 
 ul#menu li a:hover{
     cursor: pointer;
-    background-color:#7AB9E1;
+    background-color:#7ACC52;
 }
